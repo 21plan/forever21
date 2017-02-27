@@ -22,6 +22,8 @@
 
 <img width="330" alt="wx20170227-160042 2x" src="https://cloud.githubusercontent.com/assets/6932025/23353133/e37c585c-fd05-11e6-9885-6c9adf98b797.png">
 
+本费用本着透明公正的原则，会将明细期数写到对应issue中，大家留意关注。
+
 
 ### 活动参与公众号
 
