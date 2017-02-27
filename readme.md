@@ -18,6 +18,10 @@
 
  4，活动发现作弊的小伙伴，将不能参加之后的活动哟。
 
+### 参赛费用
+
+<img width="330" alt="wx20170227-160042 2x" src="https://cloud.githubusercontent.com/assets/6932025/23353133/e37c585c-fd05-11e6-9885-6c9adf98b797.png">
+
 
 ### 活动参与公众号
 
