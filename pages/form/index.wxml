@@ -1,0 +1,14 @@
+
+<view class="form">
+	<view class="section">
+		<textarea placeholder="今天KEEP如何？" auto-focus />
+	</view>
+	<view class="section pic-container" wx:if="{{tempFilePath}}" >
+		<image src="{{tempFilePath}}" width="100%"/>
+	</view>
+	<view class="section uploadPic" bindtap="uploadPic" wx:if="{{!tempFilePath}}">
+		<image src="../../components/images/camera.png"/>
+	</view>
+	<button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="true"
+        disabled="{{disabled}}" bindtap="save" hover-class="other-button-hover"> 打卡 </button>
+</view>

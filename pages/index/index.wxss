@@ -19,3 +19,40 @@
 .usermotto {
   margin-top: 200px;
 }
+.bottomNav{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 1rpx solid #ccc;
+}
+.nav{
+  display: flex;
+  width: 100%;
+}
+
+.tab{
+  display: inline-block;
+  flex: 1;
+  text-align: center;
+  vertical-middle: center;
+}
+
+.tab image{
+  display: inline-block;
+  margin-top: 8rpx;
+  width: 32rpx;
+  height: 32rpx;
+}
+.tab:nth-child(3) image{
+  margin-top: 5rpx;
+  width: 65rpx;
+  height: 65rpx;
+  border-radius: 100%;
+  border: 1rpx solid #ccc;
+}
+.tab text{
+  display: block;
+  font-size: 20rpx;
+}

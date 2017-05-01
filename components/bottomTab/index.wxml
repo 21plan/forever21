@@ -1,0 +1,23 @@
+<template name="nav">
+	<view class="nav">
+		<navigator url="/pages/index/index?title=index" class="tab">
+			<image src="../../components/images/all.png"/>
+			<text>动态</text>
+		</navigator>
+		<navigator url="/pages/logs/logs?title=log" class="tab">
+			<image src="../../components/images/RFQ.png"/>
+			<text>排行</text>
+		</navigator>
+		<navigator url="/pages/form/index?title=form" class="tab">
+			<image src="../../components/images/add.png"/>
+		</navigator>
+		<navigator url="/pages/range/index?title=range" class="tab">
+			<image src="../../components/images/cart.png"/>
+			<text>补给</text>
+		</navigator>
+		<navigator url="/pages/user/index?title=user" class="tab">
+			<image src="../../components/images/personal-center.png"/>
+			<text>我的</text>
+		</navigator>
+	</view>
+</template>

@@ -1,0 +1,32 @@
+/**index.wxss**/
+.form{
+  padding: 0 20rpx;
+}
+.section textarea{
+  width: 94%;
+  padding: 20rpx;
+  font-size: 28rpx;
+}
+.uploadPic{
+  width: 200rpx;
+  background: #eee;
+}
+.uploadPic image{
+  display: block;
+  margin: 0 auto;
+  padding: 68rpx 0;
+  width: 64rpx;
+  height: 64rpx;
+}
+.pic-container{
+  display: inline-block;
+  width: 200rpx;
+  height: 200rpx;
+  overflow: hidden;
+}
+.pic-container image{
+  width: 100%;
+}
+button{
+  margin-top: 20rpx;
+}

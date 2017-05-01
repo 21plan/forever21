@@ -25,6 +25,10 @@ Page({
 			that.setData({
 				userInfo: userInfo
 			})
+			wx.setStorage({
+				key: "userInfo",
+				data: userInfo
+			})
 			let nickName = that.data.userInfo.nickName
 			let avatarUrl = that.data.userInfo.avatarUrl
 			let gender = that.data.userInfo.gender

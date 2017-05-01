@@ -1,3 +1,4 @@
+<import src="../../components/bottomTab/index.wxml"/>
 <!--index.wxml-->
 <view class="container">
   <view  bindtap="bindViewTap" class="userinfo">
@@ -6,5 +7,23 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="bottomNav">
+    <template is="nav"/>
   </view>
 </view>
