@@ -26,6 +26,7 @@
 }
 .pic-container image{
   width: 100%;
+  display: inline;
 }
 button{
   margin-top: 20rpx;
