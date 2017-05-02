@@ -33,7 +33,6 @@ Page({
 
 				).catch(console.error);
 			}
-		});
-
+		})
 	}
 })
