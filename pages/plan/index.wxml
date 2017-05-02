@@ -1,7 +1,7 @@
 <view class="plan">
 	<view class="section">
 		<text>坚持项目：</text>
-		<input  maxlength="15" placeholder="最大输入长度15" />
+		<input  maxlength="15" placeholder="最大输入长度15" value="{{inputvalue}}" bindinput="bindKeyInput"/>
 	</view>
 	<view class="section">
 		<text>开始时间：</text>
