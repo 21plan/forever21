@@ -41,14 +41,14 @@
 
 .tab image{
   display: inline-block;
-  margin-top: 8rpx;
+  margin-top: 18rpx;
   width: 32rpx;
   height: 32rpx;
 }
 .tab:nth-child(3) image{
   margin-top: 5rpx;
-  width: 65rpx;
-  height: 65rpx;
+  width: 80rpx;
+  height: 80rpx;
   border-radius: 100%;
   border: 1rpx solid #ccc;
 }

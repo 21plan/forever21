@@ -1,6 +1,12 @@
 /**index.wxss**/
+page{
+  background: #eee;
+}
 .form{
-  padding: 0 20rpx;
+  margin: 20rpx;
+  padding: 20rpx;
+  background: #fff;
+  border-radius: 10rpx;
 }
 .section textarea{
   width: 94%;
@@ -28,6 +34,19 @@
   width: 100%;
   display: inline;
 }
+.bottom-button{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+}
 button{
-  margin-top: 20rpx;
+  margin: 20rpx;
+  font-size: 30rpx;
+
+}
+button.other-button-hover{
+  background-color: #1aad19;
+  color: #fff;
 }

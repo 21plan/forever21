@@ -1,9 +1,9 @@
 {
 	"pages": [
-
+		"pages/form/index",
 		"pages/index/index",
 		"pages/logs/logs",
-		"pages/form/index",
+
 		"pages/range/index",
 		"pages/user/index"
 

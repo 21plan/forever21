@@ -9,6 +9,9 @@
 	<view class="section uploadPic" bindtap="uploadPic" wx:if="{{!tempFilePath}}">
 		<image src="../../components/images/camera.png"/>
 	</view>
-	<button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="true"
-        disabled="{{disabled}}" bindtap="save" hover-class="other-button-hover"> 打卡 </button>
+</view>
+
+<view class="bottom-button">
+<button type="primary" size="{{defaultSize}}" loading="{{loading}}" plain="true"
+			disabled="{{disabled}}" bindtap="save" class="save-card" hover-class="other-button-hover"> 打卡 </button>
 </view>
