@@ -1,0 +1,45 @@
+.plan{
+	padding: 20rpx;
+}
+.section{
+	display: flex;
+	height: 80rpx;
+	margin-bottom: 40rpx;
+	align-items: center;
+}
+.section text{
+	font-size: 32rpx;
+}
+.section input{
+	display: inline-block;
+	padding: 10rpx 30rpx;
+	border: 1rpx solid #eee;
+	font-size: 30rpx;
+}
+.section picker{
+	font-size: 32rpx;
+}
+.coin{
+	position: fixed;
+	left: 20rpx;
+	bottom: 130rpx;
+	border: 1rpx solid #000;
+	font-size: 30rpx;
+	width: 220rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	border-radius: 30rpx;
+	text-align: center;
+}
+.bottom-button{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+}
+button{
+  margin: 20rpx;
+  font-size: 30rpx;
+
+}

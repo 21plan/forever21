@@ -11,7 +11,7 @@
 		<navigator url="/pages/form/index?title=form" class="tab">
 			<image src="../../components/images/add.png"/>
 		</navigator>
-		<navigator url="/pages/range/index?title=range" class="tab">
+		<navigator url="/pages/shop/index?title=shop" class="tab">
 			<image src="../../components/images/cart.png"/>
 			<text>补给</text>
 		</navigator>

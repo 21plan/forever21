@@ -41,5 +41,10 @@ Page({
 			});
 
 		})
+	},
+	createPlan() {
+		wx.navigateTo({
+			url: '/pages/plan/index'
+		})
 	}
 })

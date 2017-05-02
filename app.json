@@ -5,8 +5,10 @@
 		"pages/logs/logs",
 		"pages/form/index",
 		"pages/range/index",
-		"pages/user/index",
-		"pages/plan/index"
+		"pages/plan/index",
+		"pages/shop/index",
+		"pages/user/index"
+
 
 	],
 	"window": {

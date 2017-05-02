@@ -1,0 +1,8 @@
+.shop{
+	padding: 20rpx;
+}
+.section{
+	border: 1rpx solid #eee;
+	height: 140rpx;
+	border-radius: 10rpx;
+}
