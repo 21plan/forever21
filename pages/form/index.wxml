@@ -1,17 +1,19 @@
 
-<view class="form">
-	<view class="section">
-		<textarea placeholder="今天KEEP如何？" auto-focus />
+<form bindsubmit="bindFormSubmit">
+	<view class="form">
+		<view class="section">
+			<textarea placeholder="今天KEEP如何？" name="textarea" auto-focus />
+		</view>
+		<view class="section pic-container" wx:if="{{tempFilePath}}" >
+			<image src="{{tempFilePath}}" width="100%"/>
+		</view>
+		<view class="section uploadPic" bindtap="uploadPic" wx:if="{{!tempFilePath}}">
+			<image src="../../components/images/camera.png"/>
+		</view>
 	</view>
-	<view class="section pic-container" wx:if="{{tempFilePath}}" >
-		<image src="{{tempFilePath}}" width="100%"/>
-	</view>
-	<view class="section uploadPic" bindtap="uploadPic" wx:if="{{!tempFilePath}}">
-		<image src="../../components/images/camera.png"/>
-	</view>
-</view>
 
-<view class="bottom-button">
-<button type="primary" size="{{defaultSize}}" loading="{{loading}}" plain="true"
-			disabled="{{disabled}}" bindtap="save" class="save-card" hover-class="other-button-hover"> 打卡 </button>
-</view>
+	<view class="bottom-button">
+	<button form-type="submit" size="{{defaultSize}}" loading="{{loading}}" plain="true"
+				disabled="{{disabled}}" class="save-card" hover-class="other-button-hover"> 打卡 </button>
+	</view>
+</form>
